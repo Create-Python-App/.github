@@ -4,9 +4,12 @@
 
 # Create Python App
 
-**One command. Any Python stack.**
+**One command. Any Python stack.** · Public **Beta**
 
-> The scaffolding toolkit for Python — inspired by and built alongside [Create Node App](https://github.com/Create-Node-App).
+> Composition-first scaffolding for Python — inspired by and built alongside [Create Node App](https://github.com/Create-Node-App).
+
+[![PyPI](https://img.shields.io/pypi/v/create-awesome-python-app.svg?style=flat-square)](https://pypi.org/project/create-awesome-python-app/)
+[![Website](https://img.shields.io/badge/website-create--awesome--python--app.vercel.app-3b82f6?style=flat-square&logo=vercel&logoColor=white)](https://create-awesome-python-app.vercel.app/)
 
 </div>
 
@@ -19,44 +22,51 @@
 Pick a template. Layer extensions. Ship production-ready Python projects in seconds — without spending hours on boilerplate configuration.
 
 ```bash
-# coming soon
-pip install create-awesome-python-app
-create-awesome-python-app my-api
+uvx create-awesome-python-app@latest my-api
 ```
 
+Or pin a template for CI:
+
+```bash
+uvx create-awesome-python-app@latest my-api \
+  --template fastapi-starter \
+  --addons python-docker github-setup \
+  --no-interactive
+```
+
+→ **[create-awesome-python-app.vercel.app](https://create-awesome-python-app.vercel.app/)**
+
 ---
 
-## Planned Templates
+## Repositories
 
-| Template | Stack | Status |
-|----------|-------|--------|
-| FastAPI Starter | FastAPI + Pydantic + async | Planned |
-| Django Boilerplate | Django + PostgreSQL + REST | Planned |
-| Flask Starter | Flask + SQLAlchemy | Planned |
-| CLI App | Click + Rich + Typer | Planned |
-| Data Science | Jupyter + pandas + uv | Planned |
+| Repository | Description |
+|---|---|
+| [create-python-app](https://github.com/Create-Python-App/create-python-app) | CLI (`create-awesome-python-app`) + scaffolding engine |
+| [cpa-templates](https://github.com/Create-Python-App/cpa-templates) | Official templates and extensions catalog |
+| [website](https://github.com/Create-Python-App/website) | Docs + catalog at [create-awesome-python-app.vercel.app](https://create-awesome-python-app.vercel.app/) |
+| [homebrew-tap](https://github.com/Create-Python-App/homebrew-tap) | Homebrew formula |
+| [aur-package](https://github.com/Create-Python-App/aur-package) | AUR PKGBUILD mirror |
 
 ---
 
-## Planned Extensions
+## Templates (Beta)
 
-Extensions will follow the same composable pattern as the Node.js ecosystem:
+| Template | Stack |
+|----------|-------|
+| FastAPI Starter | FastAPI + uv + Ruff + pytest |
+| CLI Starter | Typer/Click-ready CLI |
+| Celery Worker | Background workers + Redis-ready |
+| Django API | Django API starter |
+| uv Workspace Starter | Multi-package uv monorepo |
 
-- **Testing** — pytest, coverage, hypothesis
-- **Database** — SQLAlchemy, SQLModel, Tortoise ORM, Alembic
-- **Auth** — python-jose, passlib, OAuth2
-- **Tooling** — ruff, black, mypy, pre-commit, GitHub Actions
-- **Deployment** — Docker, Serverless, Terraform
+→ [Browse templates](https://create-awesome-python-app.vercel.app/templates) · [Browse extensions](https://create-awesome-python-app.vercel.app/extensions)
 
 ---
 
 ## Status
 
-This project is in early planning. If you want to be involved early, open an issue or watch this org.
-
-The Node.js counterpart is production-ready today — start there if you need something now:
-
-→ **[create-awesome-node-app.vercel.app](https://create-awesome-node-app.vercel.app)**
+Public **Beta**: the CLI, catalog, and website are live. APIs and templates may still evolve quickly — feedback welcome.
 
 ---
 
@@ -65,5 +75,5 @@ The Node.js counterpart is production-ready today — start there if you need so
 | Org | Stack | Status |
 |-----|-------|--------|
 | [Create-Node-App](https://github.com/Create-Node-App) | Node.js, TypeScript | ✅ Production |
-| [Create-Python-App](https://github.com/Create-Python-App) | Python | 🔜 Planned |
+| [Create-Python-App](https://github.com/Create-Python-App) | Python | 🧪 Beta |
 | [Create-Vlang-App](https://github.com/Create-Vlang-App) | V language | 🔜 Planned |
