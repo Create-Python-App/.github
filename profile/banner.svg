@@ -70,9 +70,9 @@
 
   <!-- Text content -->
   <g font-family="Inter, ui-sans-serif, system-ui, sans-serif">
-    <!-- "COMING SOON" badge -->
-    <rect x="290" y="128" width="140" height="32" rx="16" fill="#3b82f6" fill-opacity="0.14" stroke="#93c5fd" stroke-opacity="0.5"/>
-    <text x="360" y="149" text-anchor="middle" fill="#bfdbfe" font-size="13" font-weight="700" letter-spacing="1.2">COMING SOON</text>
+    <!-- "BETA" badge -->
+    <rect x="290" y="128" width="92" height="32" rx="16" fill="#3b82f6" fill-opacity="0.14" stroke="#93c5fd" stroke-opacity="0.5"/>
+    <text x="336" y="149" text-anchor="middle" fill="#bfdbfe" font-size="13" font-weight="700" letter-spacing="1.2">BETA</text>
 
     <!-- Main title -->
     <text x="290" y="222" fill="#F8FAFC" font-size="58" font-weight="900" letter-spacing="-1.5" filter="url(#text-glow)">Create Python App</text>
