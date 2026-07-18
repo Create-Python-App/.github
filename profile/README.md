@@ -30,7 +30,7 @@ Or pin a template for CI:
 ```bash
 uvx create-awesome-python-app@latest my-api \
   --template fastapi-starter \
-  --addons python-docker github-setup \
+  --addons fastapi-docker github-setup \
   --no-interactive
 ```
 
