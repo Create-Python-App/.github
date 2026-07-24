@@ -9,6 +9,7 @@
 > Composition-first scaffolding for Python — inspired by and built alongside [Create Node App](https://github.com/Create-Node-App).
 
 [![PyPI](https://img.shields.io/pypi/v/create-awesome-python-app.svg?style=flat-square)](https://pypi.org/project/create-awesome-python-app/)
+[![PyPI Downloads](https://img.shields.io/pypi/dm/create-awesome-python-app.svg?style=flat-square)](https://pypi.org/project/create-awesome-python-app/)
 [![Website](https://img.shields.io/badge/website-create--awesome--python--app.vercel.app-3b82f6?style=flat-square&logo=vercel&logoColor=white)](https://create-awesome-python-app.vercel.app/)
 [![Discord](https://img.shields.io/discord/1527933660764831825?style=flat-square&label=Discord&logo=discord&logoColor=white)](https://discord.gg/bR5VyATgka)
 
