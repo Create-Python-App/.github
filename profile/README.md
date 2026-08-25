@@ -78,7 +78,8 @@ Public **Beta**: the CLI, catalog, and website are live. APIs and templates may 
 |-----|-------|--------|
 | [Create-Node-App](https://github.com/Create-Node-App) | Node.js, TypeScript | ✅ Production |
 | [Create-Python-App](https://github.com/Create-Python-App) | Python | 🧪 Beta |
-| [Create-Vlang-App](https://github.com/Create-Vlang-App) | V language | 🔜 Planned |
+| [Create-Vlang-App](https://github.com/Create-Vlang-App) | V language | ✅ Shipped (`0.1.0`) |
+| [Create-Rust-App](https://github.com/Create-Rust-App) | Rust | 🔜 Soon |
 
 ---
 
