@@ -6,7 +6,7 @@
 
 **One command. Any Python stack.** · Public **Beta**
 
-> Composition-first scaffolding for Python — inspired by and built alongside [Create Node App](https://github.com/Create-Node-App).
+> Composition-first scaffolding for Python, inspired by and built alongside [Create Node App](https://github.com/Create-Node-App).
 
 [![PyPI](https://img.shields.io/pypi/v/create-awesome-python-app.svg?style=flat-square)](https://pypi.org/project/create-awesome-python-app/)
 [![PyPI Downloads](https://img.shields.io/pypi/dm/create-awesome-python-app.svg?style=flat-square)](https://pypi.org/project/create-awesome-python-app/)
@@ -21,7 +21,7 @@
 
 `Create Python App` brings the composition-first scaffolding philosophy of [create-awesome-node-app](https://github.com/Create-Node-App/create-node-app) to the Python ecosystem.
 
-Pick a template. Layer extensions. Ship production-ready Python projects in seconds — without spending hours on boilerplate configuration.
+Pick a template. Layer extensions. Ship production-ready Python projects in seconds without spending hours on boilerplate configuration.
 
 ```bash
 uvx create-awesome-python-app@latest my-api
@@ -68,7 +68,7 @@ uvx create-awesome-python-app@latest my-api \
 
 ## Status
 
-Public **Beta**: the CLI, catalog, and website are live. APIs and templates may still evolve quickly — feedback welcome.
+Public **Beta**: the CLI, catalog, and website are live. APIs and templates may still evolve quickly. Feedback welcome.
 
 ---
 
@@ -78,22 +78,23 @@ Public **Beta**: the CLI, catalog, and website are live. APIs and templates may 
 |-----|-------|--------|
 | [Create-Node-App](https://github.com/Create-Node-App) | Node.js, TypeScript | ✅ Production |
 | [Create-Python-App](https://github.com/Create-Python-App) | Python | 🧪 Beta |
-| [Create-Vlang-App](https://github.com/Create-Vlang-App) | V language | 🔜 Planned |
+| [Create-Vlang-App](https://github.com/Create-Vlang-App) | V language | ✅ Shipped (`0.1.0`) |
+| [Create-Rust-App](https://github.com/Create-Rust-App) | Rust | 🔜 Soon |
 
 ---
 
 ## 👥 Contributors
 
-### `create-python-app` — CLI & Scaffolding Engine
+### `create-python-app`: CLI & Scaffolding Engine
 
 <a href="https://github.com/Create-Python-App/create-python-app/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Create-Python-App/create-python-app" alt="Contributors — create-python-app" />
+  <img src="https://contrib.rocks/image?repo=Create-Python-App/create-python-app" alt="Contributors for create-python-app" />
 </a>
 
-### `cpa-templates` — Templates & Extensions Catalog
+### `cpa-templates`: Templates & Extensions Catalog
 
 <a href="https://github.com/Create-Python-App/cpa-templates/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Create-Python-App/cpa-templates" alt="Contributors — cpa-templates" />
+  <img src="https://contrib.rocks/image?repo=Create-Python-App/cpa-templates" alt="Contributors for cpa-templates" />
 </a>
 
 Made with [contrib.rocks](https://contrib.rocks).
