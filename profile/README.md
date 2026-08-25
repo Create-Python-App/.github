@@ -84,8 +84,16 @@ Public **Beta**: the CLI, catalog, and website are live. APIs and templates may 
 
 ## 👥 Contributors
 
-<a href="https://github.com/Create-Python-App/.github/contributors">
-  <img src="https://contrib.rocks/image?repo=Create-Python-App/.github"/>
+### `create-python-app` — CLI & Scaffolding Engine
+
+<a href="https://github.com/Create-Python-App/create-python-app/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Create-Python-App/create-python-app" alt="Contributors — create-python-app" />
 </a>
 
-Made with [contributors-img](https://contrib.rocks).
+### `cpa-templates` — Templates & Extensions Catalog
+
+<a href="https://github.com/Create-Python-App/cpa-templates/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Create-Python-App/cpa-templates" alt="Contributors — cpa-templates" />
+</a>
+
+Made with [contrib.rocks](https://contrib.rocks).
