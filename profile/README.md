@@ -4,7 +4,7 @@
 
 # Create Python App
 
-**One command. Any Python stack.** · Public **Beta**
+**One command. Any Python stack.**
 
 > Composition-first scaffolding for Python, inspired by and built alongside [Create Node App](https://github.com/Create-Node-App).
 
@@ -52,7 +52,7 @@ uvx create-awesome-python-app@latest my-api \
 
 ---
 
-## Templates (Beta)
+## Templates
 
 | Template | Stack |
 |----------|-------|
@@ -68,7 +68,7 @@ uvx create-awesome-python-app@latest my-api \
 
 ## Status
 
-Public **Beta**: the CLI, catalog, and website are live. APIs and templates may still evolve quickly. Feedback welcome.
+The CLI, catalog, and website are live.
 
 ---
 
@@ -77,7 +77,7 @@ Public **Beta**: the CLI, catalog, and website are live. APIs and templates may 
 | Org | Stack | Status |
 |-----|-------|--------|
 | [Create-Node-App](https://github.com/Create-Node-App) | Node.js, TypeScript | ✅ Production |
-| [Create-Python-App](https://github.com/Create-Python-App) | Python | 🧪 Beta |
+| [Create-Python-App](https://github.com/Create-Python-App) | Python | ✅ Production |
 | [Create-Vlang-App](https://github.com/Create-Vlang-App) | V language | ✅ Shipped (`0.1.0`) |
 | [Create-Rust-App](https://github.com/Create-Rust-App) | Rust | 🔜 Soon |
 
