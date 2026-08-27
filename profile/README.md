@@ -40,6 +40,14 @@ uvx create-awesome-python-app@latest my-api \
 
 ---
 
+## Community
+
+Questions, ideas, template requests, and collaboration are welcome in the Create Awesome community.
+
+[![Join the Discord community](https://img.shields.io/discord/1527933660764831825?label=Join%20Discord&logo=discord&logoColor=white)](https://discord.gg/bR5VyATgka)
+
+---
+
 ## Repositories
 
 | Repository | Description |
