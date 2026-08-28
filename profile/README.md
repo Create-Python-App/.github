@@ -48,6 +48,18 @@ Questions, ideas, template requests, and collaboration are welcome in the Create
 
 ---
 
+## Contributing
+
+New contributors are welcome. Start with a `good first issue` in any repo:
+
+- [create-python-app](https://github.com/Create-Python-App/create-python-app/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) — CLI + scaffolding engine
+- [cpa-templates](https://github.com/Create-Python-App/cpa-templates/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) — templates and extensions catalog
+- [website](https://github.com/Create-Python-App/website/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) — docs and catalog site
+
+Each repo has its own `CONTRIBUTING.md` with setup and expectations.
+
+---
+
 ## Repositories
 
 | Repository | Description |
