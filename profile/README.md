@@ -58,6 +58,11 @@ New contributors are welcome. Start with a `good first issue` in any repo:
 
 Each repo has its own `CONTRIBUTING.md` with setup and expectations.
 
+Starter-friendly work: docs, tests, and README gaps. Looking for a seasonal
+event? Try the [`hacktoberfest` topic](https://github.com/search?q=org%3ACreate-Python-App+hacktoberfest&type=repositories)
+across the org. Please do not duplicate already-assigned AI/ML epic work —
+coordinate on the tracking issue first.
+
 ---
 
 ## Repositories
